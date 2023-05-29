@@ -3,6 +3,7 @@ const router = express.Router()
 const { ensureAuth, ensureGuest } = require('../middleware/auth')
 
 const Story = require('../models/Story')
+const User = require('../models/User')
 
 // @desc Show add page
 // @route GET /stories/add
