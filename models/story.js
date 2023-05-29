@@ -17,7 +17,7 @@ const StorySchema = new mongoose.Schema({
     },
     user: {
         type: mongoose.Schema.Types.ObjectID,
-        ref: 'user',
+        ref: 'User',
     },
     createdAt: {
         type: Date,
